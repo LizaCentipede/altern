@@ -30,19 +30,14 @@
 
       div.hp {
         background-color: transparent;
-        width: 70px;
-        height: 50px;
         border: 2px solid limegreen;
         position: absolute;
         right: 40%;
         top: 58%;
-        display: block;
       }
 
       div.mv {
         background-color: transparent;
-        width: 70px;
-        height: 50px;
         border: 2px solid limegreen;
         position: absolute;
         right: 55%;
@@ -51,8 +46,6 @@
 
       div.bc {
         background-color: transparent;
-        width: 70px;
-        height: 50px;
         border: 2px solid limegreen;
         position: absolute;
         right: 60%;
@@ -61,27 +54,13 @@
 
       div.ls {
         background-color: transparent;
-        width: 70px;
-        height: 50px;
         border: 2px solid limegreen;
         position: absolute;
         right: 60%;
         top: 70%;
       }
 
-      div.ls:hover{
-        background-color: red;
-      }
-      div.bc:hover{
-        background-color: red;
-      }
-      div.mv:hover{
-        background-color: red;
-      }
-      div.hp:hover {
-        background-color: red;
-      }
-      
+
 
       div.phot {
         width: 15em;
@@ -101,7 +80,7 @@
         margin: 0;
         padding: 0;
         margin-top: 10em;
-        position: sticky;
+        position: fixed;
         top: 0;
         overflow: hidden;
       }
@@ -116,6 +95,63 @@
         font-size: .99em;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 1em;
+      }
+
+      div.ls a{
+        display: block;
+        color: rgb(0, 0, 0, 0);
+        background-color: transparent;
+        padding-top: 1em;
+      }
+      div.hp a{
+            display: block;
+        color: rgb(0, 0, 0, 0);
+        background-color: transparent;
+        padding-top: 1em;
+      }
+      div.mv a{
+        display: block;
+        color: rgb(0, 0, 0, 0);
+        background-color: transparent;
+        padding-top: 1em; 
+      }
+      div.bc a {
+        display: block;
+        color: rgb(0, 0, 0, 0);
+        background-color: transparent;
+        padding-top: 1em;
+      }
+
+      div.bc a:visted {
+        color: rgb(0, 0, 0, 0);
+      }
+
+      div.hp a:visited {
+        color: rgb(0, 0, 0, 0);
+      }
+
+      div.ls a:visited {
+        color: rgb(0, 0, 0, 0);
+      }
+
+      div.mv a:visited {
+        color: rgb(0, 0, 0, 0);
+      }
+
+      div.ls:hover {
+        border: 1px solid red;
+      }
+
+      div.bc:hover {
+        border: 1px solid red;
+      }
+
+      div.mv:hover {
+        border: 1px solid red;
+      }
+
+      div.hp:hover {
+        border: 1px solid red;
       }
 
       p,
@@ -147,10 +183,10 @@
       <div class="phot">
         <img src="map.png" alt="map made from Google Maps images photobashed together" width="1000px">
       </div>
-      <div class="hp"><a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> help </a> </div>
-      <div class="bc"> <a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> help </a></div>
-      <div class="ls"> <a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> help </a></div>
-      <div class="mv"><a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> help </a> </div>
+      <div class="hp"><a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> High Park </a> </div>
+      <div class="bc"> <a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> Bancroft </a></div>
+      <div class="ls"> <a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> Lakeshore </a></div>
+      <div class="mv"><a href="https://en.wikipedia.org/wiki/Sinosauropteryx"> Mill Valley </a> </div>
 
     </div>
     <ul id="navba">
